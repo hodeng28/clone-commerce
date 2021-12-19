@@ -1,3 +1,5 @@
+import React from 'react';
+
 const MyPage = (): JSX.Element => (
     <div>
         <div>mypage</div>

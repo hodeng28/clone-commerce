@@ -1,11 +1,11 @@
 import React from 'react';
+
 import './App.css';
+import MainRouter from './Router/MainRouter';
 
 const App = (): JSX.Element => (
   <div className="App">
-    <header className="App-header">
-      test    
-    </header>
+      <MainRouter />
   </div>
 );
 
