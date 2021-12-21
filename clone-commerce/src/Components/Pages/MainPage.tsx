@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainPage = (): JSX.Element => (
     <div>
-        <div>mainPage</div>
+        <div>문고리 메인</div>
     </div>
 );
 

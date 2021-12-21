@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Nav.scss';
 
 const Nav = ():JSX.Element => (
-    <>
+    <div className="nav-wrap">
       <ul>
         <li>
-          <Link to="/">
-            홈
-          </Link>
+          <Link to="/">홈</Link>
         </li>
         <li>
           <Link to="/GoodsPage">상품페이지</Link>
@@ -16,7 +15,7 @@ const Nav = ():JSX.Element => (
           <Link to="/Mypage">마이페이지</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 
 export default Nav;

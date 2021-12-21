@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 
 import './index.css';
 import App from './App';
+import "./common.scss";
 import reportWebVitals from './reportWebVitals';
 
 render(

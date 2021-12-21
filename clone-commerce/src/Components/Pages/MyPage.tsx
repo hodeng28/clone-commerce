@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyPage = (): JSX.Element => (
     <div>
-        <div>mypage</div>
+        <div>마이페이지</div>
     </div>
 );
 
