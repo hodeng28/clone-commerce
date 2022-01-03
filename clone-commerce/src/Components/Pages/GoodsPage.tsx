@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GoodsPage = (): JSX.Element => (
+const GoodsPage = () => (
     <div>
         <div>상품 리스트 영역</div>
     </div>

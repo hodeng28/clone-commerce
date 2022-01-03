@@ -1,6 +1,9 @@
+@import "../../variables";
 .nav-wrap {
-    background-color: red;
+  
+  background-color: $color-base-050;
     ul {
+      display: flex;  
       li {
         
       }

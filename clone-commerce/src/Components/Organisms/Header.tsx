@@ -2,7 +2,7 @@ import React from 'react';
 
 import Nav from './Nav';
 
-const Header = ():JSX.Element => (
+const Header = () => (
     <>
       {/* logo and search */}
       <Nav />

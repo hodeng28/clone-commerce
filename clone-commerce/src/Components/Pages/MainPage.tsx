@@ -1,8 +1,13 @@
 import React from 'react';
 
-const MainPage = (): JSX.Element => (
+// import Goods from '../Molecules/Goods';
+
+const MainPage = () => (
     <div>
-        <div>문고리 메인</div>
+        <div>오늘의 인기상품</div>
+        <ul className="goods-wrap">
+           {/* <Goods  /> */}
+      </ul>
     </div>
 );
 

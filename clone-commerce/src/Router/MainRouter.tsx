@@ -6,7 +6,7 @@ import GoodsPage from '../Components/Pages/GoodsPage';
 import MainPage from '../Components/Pages/MainPage';
 import MyPage from '../Components/Pages/MyPage';
 
-const MainRouter = (): JSX.Element => (
+const MainRouter = () => (
     
     <BrowserRouter>
     <Header />

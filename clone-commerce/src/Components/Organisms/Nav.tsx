@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.scss';
 
-const Nav = ():JSX.Element => (
+const Nav = () => (
     <div className="nav-wrap">
       <ul>
         <li>

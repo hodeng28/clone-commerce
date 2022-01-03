@@ -1,0 +1,62 @@
+// $color-base
+$color-base-100: #000000;
+$color-base-090: #1c1814;
+$color-base-080: #3f3c3a;
+$color-base-070: #605d5b;
+$color-base-060: #8e8c8a;
+$color-base-050: #b8b6b4;
+$color-base-040: #d2d1d0;
+$color-base-030: #e8e8e8;
+$color-base-020: #f4f4f4;
+$color-base-010: #f8f8f8;
+$color-base-000: #ffffff;
+
+// $color-accent
+$color-accent-090: #e11500;
+$color-accent-080: #ff3722;
+$color-accent-070: #ff5442;
+$color-accent-060: #ff622E;
+$color-accent-050: #ff988e;
+$color-accent-040: #ffbbb3;
+$color-accent-030: #ffddd9;
+$color-accent-020: #ffeeec;
+$color-accent-010: #fff7f6;
+
+// $color-primary
+$color-primary-090: #009260;
+$color-primary-080: #00b076;
+$color-primary-070: #1ec68c;
+$color-primary-060: #62d7ab;
+$color-primary-050: #8fe3c6;
+$color-primary-040: #bceedc;
+$color-primary-030: #d8f1e8;
+$color-primary-020: #e6f7f1;
+$color-primary-010: #f1f9f6;
+$color-primary-000: #ffffff;
+
+// $color-secondary
+$color-secondary-090: #ffb13d;
+$color-secondary-080: #fede00;
+$color-secondary-070: #ffe73e;
+
+// Responsive
+$breakpoints: (
+	xx-large:	1416px,
+	x-large:	1024px,
+	large:		768px,
+	medium:		425px,
+	small:		360px,
+	x-small:	320px,
+	xx-small:	280px,
+);
+
+// text accent
+$text-accent:
+"accent-01" $color-primary-080,
+"accent-02" $color-accent-070,
+"normal-01" $color-base-090,
+"normal-02" $color-base-070,
+"normal-03" $color-base-060,
+"normal-04" $color-base-050,
+"normal-05" $color-base-040;
+
