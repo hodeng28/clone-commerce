@@ -1,11 +1,16 @@
 @import "../../variables";
 .nav-wrap {
   
-  background-color: $color-base-050;
+  border-bottom: 1px solid black;
     ul {
       display: flex;  
-      li {
-        
+      li:not(:nth-child(1)) {
+        height: 3rem;
+        margin-left: 1.25rem;
+        padding: 0 0.25rem;
+        line-height: 1.5;
+        color: $color-base-060;
+        white-space: nowrap;
       }
     }
 }

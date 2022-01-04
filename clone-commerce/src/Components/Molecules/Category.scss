@@ -1,0 +1,72 @@
+@import "../../_svgIcon";
+@import "../../variables";
+
+.cateogory-wrap {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+
+    .category-name {
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: 0 auto 0.5rem;
+        background-color: $color-base-010;
+        background-size: 50%;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      &.handle::before {
+        background-image: svgIcon(handle, $color-base-070);
+      }
+      &.hinge::before {
+        background-image: svgIcon(hinge, $color-base-070);
+      }
+      &.tool::before {
+        background-image: svgIcon(tool, $color-base-070);
+      }
+      &.paint::before {
+        background-image: svgIcon(paint, $color-base-070);
+      }
+      &.socket::before {
+        background-image: svgIcon(socket, $color-base-070);
+      }
+      &.lighting::before {
+        background-image: svgIcon(lighting, $color-base-070);
+      }
+      &.faucet::before {
+        background-image: svgIcon(faucet, $color-base-070);
+      }
+      &.kitchen::before {
+        background-image: svgIcon(kitchen, $color-base-070);
+      }
+      &.floor::before {
+        background-image: svgIcon(floor, $color-base-070);
+      }
+      &.wallpaper::before {
+        background-image: svgIcon(wallpaper, $color-base-070);
+      }
+
+      span {
+        display: block;
+        width: 100%;
+        font-size: 1.175rem;
+        color: $color-base-070;
+        text-align: center;
+        word-wrap: break-word;
+        word-break: keep-all;
+        letter-spacing: -1.4px;
+        line-height: .875rem;
+      }
+    }
+
+    
+  }
+}
