@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Nav.scss';
 
-const Nav = () => (
+const Nav: React.FC = () => (
   <>
     <nav className="nav-wrap">
       <h1 className="mainLogo">

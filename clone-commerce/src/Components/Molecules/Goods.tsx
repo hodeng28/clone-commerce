@@ -1,6 +1,7 @@
+import React from 'react';
 import './Goods.scss';
 
-const Goods = () => (
+const Goods: React.FC = () => (
   <>
     <div className="goods-container">
       <div className="goods-area">

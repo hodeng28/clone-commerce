@@ -1,7 +1,7 @@
 import Category from '../Molecules/Category';
 import Goods from '../Molecules/Goods';
 
-const MainPage = () => (
+const MainPage: React.FC = () => (
     <>
         <div>
             <h4>오늘의 인기상품</h4>

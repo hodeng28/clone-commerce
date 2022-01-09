@@ -1,6 +1,8 @@
+import React from 'react';
+
 import Nav from './Nav';
 
-const Header = () => (
+const Header: React.FC = () => (
     <>
       <Nav />
     </>
