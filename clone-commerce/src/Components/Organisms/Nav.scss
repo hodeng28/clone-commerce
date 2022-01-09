@@ -1,7 +1,10 @@
 @import "../../variables";
 .nav-wrap {
-  
-  border-bottom: 1px solid black;
+    .mainLogo {
+      img {
+        width: 130px;
+      }
+    }
     ul {
       display: flex;  
       li:not(:nth-child(1)) {

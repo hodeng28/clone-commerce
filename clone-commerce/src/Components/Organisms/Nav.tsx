@@ -6,7 +6,7 @@ const Nav: React.FC = () => (
     <nav className="nav-wrap">
       <h1 className="mainLogo">
       <Link to="/">
-        문고리 로고.
+        <img alt="문고리 로고" src="//img.moongori.com/common/logo/logo_slogan_02.gif" />
       </Link>
     </h1>
       <ul>
