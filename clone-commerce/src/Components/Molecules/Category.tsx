@@ -1,4 +1,4 @@
-import './Category.scss';
+import './Style/Category.scss';
 
 interface CategoryType {
   title: string,

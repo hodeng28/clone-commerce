@@ -1,18 +1,23 @@
-@import "../../_svgIcon";
-@import "../../variables";
+@import "../../../_svgIcon";
+@import "../../../variables";
 
-.goods-container {
-  width: 8.75rem;
+.goods-wrap {
+  display: flex;
 
-  .goods-area {
+  li {
+    width: 8.75rem;
     box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,0.08);
+
+    & + &{
+      margin-right: .5rem;
+    }
     .goods-figure {
       img {width: 100%}
     }
-
+  
     .goods-inform {
       padding: 1rem;
-
+  
       .goods-title {
         span {
           display: -webkit-box;
@@ -26,7 +31,7 @@
           text-overflow: ellipsis;
         }
       }
-
+  
       .goods-price {
         .sale {
           color: #ff622E;
@@ -43,7 +48,7 @@
           font-weight: 400;
         }
       }
-
+  
       .goods-rating {
           display: flex;
           align-items: center;
@@ -53,7 +58,7 @@
           background-position: 0 0;
           background-size: 1rem 1rem;
           background-image: svgIcon(star, $color-secondary-090);
-
+  
         .graph {
           display: block;
           height: 1rem;
@@ -61,7 +66,7 @@
           background-position: 0 0;
           background-size: 1rem 1rem;
           background-image: svgIcon(star, $color-base-030);
-
+  
           .value {
             display: block;
             height: inherit;
@@ -69,7 +74,7 @@
             background-size: inherit;
             background-image: svgIcon(star, $color-secondary-090);
           }
-
+  
           +.point {
             margin-left: 0.25rem;
           }
@@ -77,4 +82,6 @@
       }
     }
   }
+
+  
 }
