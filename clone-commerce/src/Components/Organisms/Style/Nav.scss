@@ -1,11 +1,18 @@
-@import "../../variables";
+@import "../../../_svgIcon";
+@import "../../../variables";
+
 .nav-wrap {
-  
-  border-bottom: 1px solid black;
+  padding: .5rem 1.125rem 0;
+  border-bottom: 1px $color-base-030 solid;
+    h1.main-logo {
+      width: 160px;
+
+      img {width: 100%;}
+    }
     ul {
       display: flex;  
       li:not(:nth-child(1)) {
-        height: 3rem;
+        height: 2rem;
         margin-left: 1.25rem;
         padding: 0 0.25rem;
         line-height: 1.5;

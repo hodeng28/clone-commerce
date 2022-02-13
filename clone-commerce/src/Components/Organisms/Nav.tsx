@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import './Nav.scss';
+import './Style/Nav.scss';
 
 const Nav: React.FC = () => (
   <>
     <nav className="nav-wrap">
-      <h1 className="mainLogo">
+      <h1 className="main-logo">
       <Link to="/">
-        문고리 로고.
+        <img alt="문고리 로고" src="https://img.moongori.com/common/logo/logo_slogan_02.gif"/>
       </Link>
     </h1>
       <ul>

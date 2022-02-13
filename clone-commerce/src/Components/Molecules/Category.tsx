@@ -1,4 +1,4 @@
-import './Category.scss';
+import './Style/Category.scss';
 
 interface CategoryType {
   title: string,
@@ -6,7 +6,7 @@ interface CategoryType {
   totalSales: number
 }
 
-const categoryList: CategoryType[] = [
+export const categoryList: CategoryType[] = [
   {
     title: "handle",
     name: "손잡이",
@@ -61,17 +61,15 @@ const categoryList: CategoryType[] = [
 
 const cateogorySort = categoryList.sort((a, b) => b.totalSales - a.totalSales);
 
-const favoriteCateogoryLIst = cateogorySort.map(item => 
-                                  <li className={item.title}
-                                      key={item.title}>
-                                    <span>{item.name}</span>
-                                  </li>)
-
 const Category: React.FC = () => (
   <>
     <div className="cateogory-wrap">
       <ul>
-        {favoriteCateogoryLIst}
+        {cateogorySort.map(item => 
+          <li className={item.title}
+              key={item.title}>
+            <span>{item.name}</span>
+          </li>)}
       </ul>
     </div>
   </>
