@@ -3,6 +3,7 @@
 
 .nav-wrap {
   padding: .5rem 1.125rem 0;
+  border-bottom: 1px $color-base-030 solid;
     h1.main-logo {
       width: 160px;
 
@@ -11,7 +12,7 @@
     ul {
       display: flex;  
       li:not(:nth-child(1)) {
-        height: 3rem;
+        height: 2rem;
         margin-left: 1.25rem;
         padding: 0 0.25rem;
         line-height: 1.5;

@@ -3,80 +3,83 @@
 
 .goods-wrap {
   display: flex;
+  overflow-x: auto;
 
   li {
-    width: 8.75rem;
+    margin-right: .5rem;
     box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,0.08);
+   
+    a {
+      display: block;
+      width: 8.75rem;
 
-    & + &{
-      margin-right: .5rem;
-    }
-    .goods-figure {
-      img {width: 100%}
-    }
-  
-    .goods-inform {
-      padding: 1rem;
-  
-      .goods-title {
-        span {
-          display: -webkit-box;
-          -webkit-line-clamp: 2; 
-          -webkit-box-orient: vertical;
-          max-height: 3rem;
-          line-height: 1.25rem;
-          font-size: 0.875rem;
-          color: #605d5b;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
+      .goods-figure {
+        img {width: 100%;}
       }
-  
-      .goods-price {
-        .sale {
-          color: #ff622E;
-          font-family: 'Lato', sans-serif;
-          font-weight: 700;
-          line-height: 1.125rem;
-          font-size: 0.75rem;
-        }
-        .price {
-          margin-left: 0.25rem;
-          color: #b8b6b4;
-          line-height: 1.125rem;
-          font-size: 0.75rem;
-          font-weight: 400;
-        }
-      }
-  
-      .goods-rating {
-          display: flex;
-          align-items: center;
-          display: block;
-          height: 1rem;
-          width: calc(1.25rem * 4);
-          background-position: 0 0;
-          background-size: 1rem 1rem;
-          background-image: svgIcon(star, $color-secondary-090);
-  
-        .graph {
-          display: block;
-          height: 1rem;
-          width: calc(1.25rem * 4);
-          background-position: 0 0;
-          background-size: 1rem 1rem;
-          background-image: svgIcon(star, $color-base-030);
-  
-          .value {
-            display: block;
-            height: inherit;
-            background-position: inherit;
-            background-size: inherit;
-            background-image: svgIcon(star, $color-secondary-090);
+    
+      .goods-inform {
+        padding: 1rem;
+    
+        .goods-title {
+          span {
+            display: -webkit-box;
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+            max-height: 3rem;
+            line-height: 1.25rem;
+            font-size: 0.875rem;
+            color: #605d5b;
+            overflow: hidden;
+            text-overflow: ellipsis;
           }
-  
-          +.point {
+        }
+    
+        .goods-price {
+          .sale {
+            color: #ff622E;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            line-height: 1.125rem;
+            font-size: 0.75rem;
+          }
+          .price {
             margin-left: 0.25rem;
+            color: #b8b6b4;
+            line-height: 1.125rem;
+            font-size: 0.75rem;
+            font-weight: 400;
+          }
+        }
+    
+        .goods-rating {
+            display: flex;
+            align-items: center;
+            display: block;
+            height: 1rem;
+            width: calc(1.25rem * 4);
+            background-position: 0 0;
+            background-size: 1rem 1rem;
+            background-image: svgIcon(star, $color-secondary-090);
+    
+          .graph {
+            display: block;
+            height: 1rem;
+            width: calc(1.25rem * 4);
+            background-position: 0 0;
+            background-size: 1rem 1rem;
+            background-image: svgIcon(star, $color-base-030);
+    
+            .value {
+              display: block;
+              height: inherit;
+              background-position: inherit;
+              background-size: inherit;
+              background-image: svgIcon(star, $color-secondary-090);
+            }
+    
+            +.point {
+              margin-left: 0.25rem;
+            }
           }
         }
       }
