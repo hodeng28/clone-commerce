@@ -8,7 +8,7 @@ import MyPage from '../Components/Pages/MyPage';
 const MainRouter :React.FC = () => (
     
     <BrowserRouter>
-    <Header />
+      <Header />
       <Routes>
         <Route element={<MainPage />} path="/" />
         <Route element={<MyPage />} path="/MyPage/*" />
