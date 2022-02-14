@@ -1,0 +1,50 @@
+@import "../../../variables";
+
+.goods-detail-container {
+  .goods-images {
+    img {
+      width: 100%;
+    } 
+  }
+  .goods-inform {
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+    .goods-data {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      
+      .goods-chip {
+        .chip-item {
+          margin-right: 0.5rem;
+          padding: 0.05rem 0.4rem;
+          line-height: 1.125rem;
+          font-size: 0.75rem;
+          font-weight: normal;
+          white-space: nowrap;
+          border-radius: 3px;
+  
+          &.today-export {
+            color: $color-accent-070;
+            border: 1px solid $color-accent-050;
+          }
+          &.coupon {
+            color: $color-secondary-060;
+            border: 1px solid $color-secondary-060;
+          }
+        }
+      }
+      .cumulative-sales {
+        font-size: .75rem;
+      }
+    }
+
+    .goods-title {
+      flex-grow: 1;
+      margin: 0;
+      line-height: 1.5rem;
+      font-size: 1.25rem;
+      color: $color-base-090;
+    }
+  }
+}

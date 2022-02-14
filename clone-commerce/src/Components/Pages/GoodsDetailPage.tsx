@@ -1,7 +1,9 @@
-const GoodsDetail: React.FC = () => (
+import GoodsDetail from "../Molecules/GoodsDetail";
+
+const GoodsDetailPage: React.FC = () => (
   <>
-    상세페이지
+    <GoodsDetail />
   </>
 );
 
-export default GoodsDetail;
+export default GoodsDetailPage;
