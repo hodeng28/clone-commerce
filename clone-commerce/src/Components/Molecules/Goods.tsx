@@ -104,11 +104,10 @@ const Goods: React.FC = () => (
                   <span>원</span>
                 </span>
               </div>
-              <div className="goods-rating">
-                  
+              <div className="goods-rating">    
                   {/* <span>(100)</span> */}
-                </div>
               </div>
+            </div>
           </Link>
         </li>
       )}
