@@ -17,13 +17,7 @@ const Nav: React.FC = () => (
           <Link to="/GoodsPage">베스트</Link>
         </li>
         <li>
-          <Link to="/Mypage">추천</Link>
-        </li>
-        <li>
           <Link to="/Mypage">테마</Link>
-        </li>
-        <li>
-          <Link to="/Mypage">기획전</Link>
         </li>
         <li>
           <Link to="/Mypage">이벤트</Link>
