@@ -14,7 +14,7 @@ const MainRouter :React.FC = () => (
         <Route element={<MainPage />} path="/" />
         <Route element={<MyPage />} path="/MyPage/*" />
         <Route element={<GoodsPage />} path="/GoodsPage/*" />
-        <Route element={<GoodsDetailPage />} path="/GoodsDetailPage/*" />
+        <Route element={<GoodsDetailPage />} path="/GoodsDetailPage/:idx" />
         {/* <Route path="/*" element={<NotFound />} /> */}
       </Routes>
     </BrowserRouter>

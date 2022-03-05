@@ -55,6 +55,27 @@
         background-position: 0 0;
         background-size: 1rem 1rem;
         background-image: svgIcon(star, $color-secondary-090);
+
+        .graph {
+          display: block;
+          height: 1rem;
+          width: calc(1.25rem * 4);
+          background-position: 0 0;
+          background-size: 1rem 1rem;
+          background-image: svgIcon(star, $color-base-030);
+  
+          .value {
+            display: block;
+            height: inherit;
+            background-position: inherit;
+            background-size: inherit;
+            background-image: svgIcon(star, $color-secondary-090);
+          }
+  
+          +.point {
+            margin-left: 0.25rem;
+          }
+        }
     }
   }
 }
